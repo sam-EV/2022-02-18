@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "samp-app-dotnetcore-3-1"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1gw5upvhbe7oo"
+s3_prefix = "samp-app-dotnetcore-3-1"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []

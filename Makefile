@@ -1,14 +1,6 @@
-all:	aws-version tsc-version
+all:	
+	docker compose run --rm superchain bash
 
-# AWS
-AWS=docker compose run --rm aws
-
-aws-version:
-	$(AWS) --version
-
-# TSC
-TSC=docker compose run --rm tsc
-
-tsc-version:
-	$(TSC) tsc --version
+build:
+	cd ./superchain/home/jsii/superchain && ./build-local.sh
 

@@ -1,0 +1,3 @@
+[submodule "superchain/home/jsii"]
+	path = superchain/home/jsii
+	url = https://github.com/aws/jsii.git
